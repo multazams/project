@@ -1,0 +1,150 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .abouts {
+   
+    margin-bottom: 20px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .headings h2 {
+    
+    font-size: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+  }
+
+  p4 {
+      font-size:20px;
+  }
+
+  .satu, .dua 
+{
+    width: 50px;
+    height: 40px;
+    position: relative;
+    padding-bottom: 200x;
+}
+.satu {
+   margin-top: 1px;
+   margin-left: 2px;
+   margin-right: -20px;
+}
+.dua {
+   margin-left: 100px;
+   z-index: 4;
+}
+
+
+#tiga
+{
+    width: 100%;
+    margin-right: 50px;
+    padding-right: 70px;
+    top: 100px;
+    z-index: 5;
+    position: static;
+}
+}
+
+/* Untuk Smartphone */
+@media screen and (max-width: 670px) {
+  .abouts {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+    
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+ 
+  .header-right {
+    display: none;
+  }
+  
+
+ .btn-wrapper {
+    margin: 5px 0;
+    margin-left: 100px;
+  }
+
+  
+  .top-wrapper h1 {
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+ .heading h2  {
+    font-weight: bolder;
+    color: #800000;
+    border-bottom: 2px solid #ee544f;
+   font-size: 24px;
+   padding-bottom: 5px;
+   margin-bottom: 20px;
+   text-align: left;
+   animation: typewriter 4s steps(40) 1s 1 normal both,
+   blinkTextCursor 500ms steps(40) infinite normal;
+ }
+
+ .satu, .dua 
+ {
+     width: 50%;
+     height: 10px;
+     position: relative;
+     
+ }
+ .satu {
+    margin-top: 1px;
+    margin-left: 2px;
+    margin-right: -20px;
+    z-index: 3;
+ }
+ .dua {
+    margin-left: 60px;
+    z-index: 4;
+ }
+ 
+ #tiga
+ {
+     width: 10px;
+     margin-right: 50px;
+     padding-right: 30px;
+     top: 100px;
+     z-index: 5;
+    
+ }
+
+ input, textarea {
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 14px;
+ }
+
+
+ p4 {
+    width: 280px;
+    float: right;
+   
+    text-align: left;
+    font-size: 16px;  
+    font-family: fantasy; 
+ }
+ 
+ 
+}
