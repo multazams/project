@@ -1,0 +1,399 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ a {
+   text-decoration: none;
+ }
+ 
+ .container {
+   width: 100%;
+   padding: 0 15px;
+   margin: 0 auto;
+ }
+ 
+ .top-wrapper {
+    opacity: 0.9;
+   padding: 180px 0 100px 0;
+   background-image: url(https://wallpaperaccess.com/full/791762.jpg) ;
+   background-size: cover;
+   color: rgb(250, 219, 219);
+   text-align: center;
+ }
+ 
+ .top-wrapper h1 {
+   opacity: 0.9;
+   font-size: 60px;
+   letter-spacing: 7px;
+   margin-bottom: 3px;
+ }
+ 
+ .top-wrapper p {
+   opacity: 1.0;
+   margin-bottom: 60px;
+   font-size: 30px;
+   letter-spacing: 10px;
+   font-style: italic;
+ }
+ 
+ .btn-wrapper {
+   margin: 20px 0;
+ }
+ 
+ 
+ 
+ 
+ .facebook {
+   background-color: grey;
+   margin-right: 4px;
+   
+ }
+
+ .facebook:before,
+.facebook:after {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.facebook:before {
+    top: 0;
+}
+.facebook:after {
+    top: 100%;
+    color: #FFFFFF;
+}
+.facebook:hover {
+    background-color: #3b5998;
+}
+.facebook:hover:after {
+    top: 0;
+}
+.facebook:hover:before {
+    top: -100%;
+}
+ 
+ .twitter {
+   background-color: grey;
+   margin-right: 4px;
+ }
+
+
+
+.twitter:before,
+.twitter:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.twitter:before {
+    top: 0;
+}
+.twitter:after {
+    top: 100%;
+    color: #FFFFFF;
+}
+.twitter:hover {
+    background-color: #55acee;
+}
+.twitter:hover:after {
+    top: 0;
+}
+.twitter:hover:before {
+    top: -100%;
+}
+
+.instagram {
+   background-color: grey;
+
+}
+
+.instagram:before,
+.instagram:after {
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.instagram:before {
+    top: 0;
+}
+.instagram:after {
+    top: 100%;
+    color: #FFFFFF;
+}
+.instagram:hover {
+    background-color: #8B0000;
+}
+.instagram:hover:after {
+    top: 0;
+}
+.instagram:hover:before {
+    top: -100%;
+}
+ 
+ .btn {
+   padding: 12px 15px;
+   color: white;
+   display: inline-block;
+   opacity: 0.8;
+   border-radius: 50px;
+ }
+ 
+ 
+ 
+ .fa {
+   margin-right: 3px;
+ }
+ 
+ header {
+   height: 70px;
+ width: 100%;
+ background-color: #708090;
+ position :fixed;
+  top: 0;
+  z-index: 10;
+ }
+ 
+ .logo {
+   width: 70px;
+ margin-top: 10px;
+ margin-bottom: 5px;
+ }
+
+ <!---->
+
+ .header-left {
+   float: left;
+ }
+ 
+ .header-right {
+   float: right;
+   margin-right: -20px;
+ }
+ 
+ .header-right a {
+   line-height: 65px;
+   padding: 0 25px;
+   color: white;
+   display: block;
+   float: left;
+   transition: all 0.5s;
+ }
+ 
+ .header-right a:hover {
+   background-color: rgba(255, 255, 255, 0.3);
+ }
+ 
+
+ 
+ .menu-icon {
+   color: white;
+   float: right;
+   font-size: 25px;
+   padding: 25px 8px;
+ 
+  display:none; 
+ }
+ 
+ 
+ .image-wrapper {
+   padding-bottom: 120px;
+   padding-left: 5%;
+   padding-right: 5%;
+   background-color: #f7f7f7;
+   text-align: center;
+ }
+ 
+ .heading {
+   padding-top: 100px;
+   padding-bottom: 50px;
+   color: #5f5d60;
+ }
+ 
+ .heading h2  {
+   font-weight: bolder;
+   color: #800000;
+   border-bottom: 2px solid #ee544f;
+  font-size: 35px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  text-align: left;
+  animation: typewriter 4s steps(40) 1s 1 normal both,
+  blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+  
+
+@keyframes typewriter {
+   from {
+         width: 0;
+   }
+   to {
+         width: 300px;
+   }
+}
+
+@keyframes blinkTextCursor {
+   from {
+         border-right-color: rgba(255, 255, 255, 0.75);
+   }
+   to {
+         border-right-color: transparent;
+   }
+}
+
+  
+   
+  
+ 
+
+ .headings h2 {
+   font-weight: bolder;
+   color: #800000;
+   
+  
+ }
+ 
+
+ 
+
+
+ 
+ .headings h3 {
+   font-weight: normal;
+   
+ }
+ 
+ .message-wrapper {
+    padding-top: 50px;
+   border-bottom: 1px solid #eee;
+   padding-bottom: 80px;
+   text-align: center;
+   background-color:   lightslategray;
+   animation-name: example;
+   animation-duration: 5s;
+ }
+
+ @keyframes example {
+   from {background-color: lightslategray;}
+   to {background-color: #FFE4E1;}
+ }
+
+ 
+ .message {
+   padding: 15px 40px;
+   background-color: #B22222;
+   cursor: pointer;
+   box-shadow: 0 7px #800000;
+ }
+ 
+ .message:active {
+   position: relative;
+   top: 7px;
+   box-shadow: none;
+ }
+
+ .contact-form {
+   padding-top: 50px;
+   margin-left: 30px;
+ }
+ 
+ input, textarea {
+   width: 400px;
+   margin-top: 10px;
+   margin-bottom: 30px;
+   padding: 20px;
+   font-size: 18px;
+ 
+ 
+ 
+   border: 1px solid #da2100;
+ }
+ 
+
+ .contact-submit {
+   background-color: #dee7ec;
+   color: #889eab;
+ }
+ 
+ 
+ footer img {
+   width: 60px;
+ }
+ 
+ footer p {
+   color: #b3aeb5;
+   font-size: 12px;
+ }
+ 
+ footer {
+   padding-top: 30px;
+   padding-bottom: 20px;
+   background-color: lightslategray;
+ }
+ 
+ h5 {
+  color: lightgray; 
+  font-size: 14px; 
+  text-align: center;
+    
+ }
+
+ h5 p {
+   color: lightgray; 
+   font-size: 12px; 
+ }
+
+.abouts {
+   float: left;
+   margin-right: 5px;
+  width: 0%;
+}
+ .satu, .dua 
+{
+    width: 20px;
+    height: 40px;
+    position: relative;
+    padding-bottom: 200x;
+}
+.satu {
+   margin-top: 1px;
+   margin-left: 2px;
+   margin-right: -20px;
+}
+.dua {
+   margin-left: 180px;
+   z-index: 4;
+}
+
+#tiga
+{
+    width: 10px;
+    margin-right: 50px;
+    padding-right: 70px;
+    top: 100px;
+    z-index: 5;
+    position: static;
+}
+
+p4 {
+   width: 280px;
+   float: right;
+   margin:0 5px 2px 0;
+   text-align: left;
+   font-size: 30px;  
+   font-family: fantasy; 
+}
+
+
+  
+
